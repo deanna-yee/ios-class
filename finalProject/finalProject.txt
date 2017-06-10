@@ -1,0 +1,24 @@
+Deanna Yee
+12/3/16
+Final Project Description
+
+
+Name of Application: Directional Simon Says
+
+Compatiable devices: iPhone and iPad
+
+Description:
+	
+	The initial view will be a view controller with the title "Directional Simon Says" and three buttons. The three buttons will say "Tap Simon Says", "Swipe Simon Says", and "High Scores".
+
+	The button that says "Tap Simon Says" will go to a view controller that has four arrow buttons pointing up, down, left, and right. The buttons will flash in a pattern. After the pattern is done showing, it will say your turn and you must copy the pattern that was just shown by tapping the buttons that were shown. 
+
+	The button that says "Swipe Simon Says" will go to a view controller that allows you to swipe up, down, left, and right. There will be images of arrows pointing up, down, left, or right that will flash in pattern. After the pattern is done showing, it will say your turn and you must copy the pattern that was shown by swiping up if the up arrow was shown, down if the down arrow was shown, left if the left arrow was shown, and right if the right arrow was shown. 
+
+	For both Tap Simon Says and Swipe Simon Says, if you get the pattern wrong it is game over. You get one point for every pattern you complete correctly. After game over, it will take you to the table view controller for the high score for the Tap Simon Says or Swipe Simon Says. It will show the top ten scores. If you are in the top ten you will be prompted to put a name for your score before showing the top ten.
+
+	The button that says "High score will take you to the high scores in the tab bar controller. The initial high scores that will be shown will be for the Tap Simon Says. The high score will navigate back to the main menu through a button in the navigation bar. "The table view controller for the Tap Simon Says and the table view controller for the Swipe Simon Says high scores will be in a tab bar controller.   
+
+	View Controllers: 3 View Controllers, Tab Bar Controller, 2 Table View Controllers
+
+	Advanced features: Core Data, touch events(swipes), stack view

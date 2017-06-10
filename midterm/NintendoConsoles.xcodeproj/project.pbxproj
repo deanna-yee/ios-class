@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7ABEF011DB2EE2300501D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABEF001DB2EE2300501D8A /* AppDelegate.swift */; };
+		F7ABEF061DB2EE2300501D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF041DB2EE2300501D8A /* Main.storyboard */; };
+		F7ABEF081DB2EE2300501D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF071DB2EE2300501D8A /* Assets.xcassets */; };
+		F7ABEF0B1DB2EE2300501D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF091DB2EE2300501D8A /* LaunchScreen.storyboard */; };
+		F7ABEF151DB2EEB900501D8A /* NintendoItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABEF121DB2EEB900501D8A /* NintendoItemStore.swift */; };
+		F7ABEF161DB2EEB900501D8A /* NintendoItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABEF131DB2EEB900501D8A /* NintendoItemsViewController.swift */; };
+		F7ABEF171DB2EEB900501D8A /* NintendoItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABEF141DB2EEB900501D8A /* NintendoItems.swift */; };
+		F7ABEF3C1DB2FBF500501D8A /* 3DS.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF301DB2FBF500501D8A /* 3DS.png */; };
+		F7ABEF3D1DB2FBF500501D8A /* DS.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF311DB2FBF500501D8A /* DS.png */; };
+		F7ABEF3E1DB2FBF500501D8A /* GameBoyAdvanceSP.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF321DB2FBF500501D8A /* GameBoyAdvanceSP.png */; };
+		F7ABEF3F1DB2FBF500501D8A /* GameBoyAdvance.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF331DB2FBF500501D8A /* GameBoyAdvance.png */; };
+		F7ABEF401DB2FBF500501D8A /* GameBoyColor.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF341DB2FBF500501D8A /* GameBoyColor.png */; };
+		F7ABEF411DB2FBF500501D8A /* Gameboy.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF351DB2FBF500501D8A /* Gameboy.png */; };
+		F7ABEF421DB2FBF500501D8A /* WiiU.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF361DB2FBF500501D8A /* WiiU.png */; };
+		F7ABEF431DB2FBF500501D8A /* Wii.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF371DB2FBF500501D8A /* Wii.png */; };
+		F7ABEF441DB2FBF500501D8A /* Gamecube.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF381DB2FBF500501D8A /* Gamecube.png */; };
+		F7ABEF451DB2FBF500501D8A /* N64.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF391DB2FBF500501D8A /* N64.png */; };
+		F7ABEF461DB2FBF500501D8A /* SNES.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF3A1DB2FBF500501D8A /* SNES.png */; };
+		F7ABEF471DB2FBF500501D8A /* NES.png in Resources */ = {isa = PBXBuildFile; fileRef = F7ABEF3B1DB2FBF500501D8A /* NES.png */; };
+		F7ABEF491DB56A7500501D8A /* NintendoItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ABEF481DB56A7500501D8A /* NintendoItemCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7ABEEFD1DB2EE2300501D8A /* NintendoConsoles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NintendoConsoles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7ABEF001DB2EE2300501D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7ABEF051DB2EE2300501D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7ABEF071DB2EE2300501D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7ABEF0A1DB2EE2300501D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7ABEF0C1DB2EE2300501D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7ABEF121DB2EEB900501D8A /* NintendoItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NintendoItemStore.swift; sourceTree = "<group>"; };
+		F7ABEF131DB2EEB900501D8A /* NintendoItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NintendoItemsViewController.swift; sourceTree = "<group>"; };
+		F7ABEF141DB2EEB900501D8A /* NintendoItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NintendoItems.swift; sourceTree = "<group>"; };
+		F7ABEF301DB2FBF500501D8A /* 3DS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3DS.png; sourceTree = "<group>"; };
+		F7ABEF311DB2FBF500501D8A /* DS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DS.png; sourceTree = "<group>"; };
+		F7ABEF321DB2FBF500501D8A /* GameBoyAdvanceSP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBoyAdvanceSP.png; sourceTree = "<group>"; };
+		F7ABEF331DB2FBF500501D8A /* GameBoyAdvance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBoyAdvance.png; sourceTree = "<group>"; };
+		F7ABEF341DB2FBF500501D8A /* GameBoyColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GameBoyColor.png; sourceTree = "<group>"; };
+		F7ABEF351DB2FBF500501D8A /* Gameboy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gameboy.png; sourceTree = "<group>"; };
+		F7ABEF361DB2FBF500501D8A /* WiiU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WiiU.png; sourceTree = "<group>"; };
+		F7ABEF371DB2FBF500501D8A /* Wii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wii.png; sourceTree = "<group>"; };
+		F7ABEF381DB2FBF500501D8A /* Gamecube.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Gamecube.png; sourceTree = "<group>"; };
+		F7ABEF391DB2FBF500501D8A /* N64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = N64.png; sourceTree = "<group>"; };
+		F7ABEF3A1DB2FBF500501D8A /* SNES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SNES.png; sourceTree = "<group>"; };
+		F7ABEF3B1DB2FBF500501D8A /* NES.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NES.png; sourceTree = "<group>"; };
+		F7ABEF481DB56A7500501D8A /* NintendoItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NintendoItemCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7ABEEFA1DB2EE2300501D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7ABEEF41DB2EE2300501D8A = {
+			isa = PBXGroup;
+			children = (
+				F7ABEEFF1DB2EE2300501D8A /* NintendoConsoles */,
+				F7ABEEFE1DB2EE2300501D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7ABEEFE1DB2EE2300501D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABEEFD1DB2EE2300501D8A /* NintendoConsoles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7ABEEFF1DB2EE2300501D8A /* NintendoConsoles */ = {
+			isa = PBXGroup;
+			children = (
+				F7ABEF131DB2EEB900501D8A /* NintendoItemsViewController.swift */,
+				F7ABEF481DB56A7500501D8A /* NintendoItemCell.swift */,
+				F7ABEF121DB2EEB900501D8A /* NintendoItemStore.swift */,
+				F7ABEF141DB2EEB900501D8A /* NintendoItems.swift */,
+				F7ABEF001DB2EE2300501D8A /* AppDelegate.swift */,
+				F7ABEF041DB2EE2300501D8A /* Main.storyboard */,
+				F7ABEF091DB2EE2300501D8A /* LaunchScreen.storyboard */,
+				F7ABEF071DB2EE2300501D8A /* Assets.xcassets */,
+				F7ABEF0C1DB2EE2300501D8A /* Info.plist */,
+				F7ABEF3B1DB2FBF500501D8A /* NES.png */,
+				F7ABEF3A1DB2FBF500501D8A /* SNES.png */,
+				F7ABEF391DB2FBF500501D8A /* N64.png */,
+				F7ABEF381DB2FBF500501D8A /* Gamecube.png */,
+				F7ABEF371DB2FBF500501D8A /* Wii.png */,
+				F7ABEF361DB2FBF500501D8A /* WiiU.png */,
+				F7ABEF351DB2FBF500501D8A /* Gameboy.png */,
+				F7ABEF341DB2FBF500501D8A /* GameBoyColor.png */,
+				F7ABEF331DB2FBF500501D8A /* GameBoyAdvance.png */,
+				F7ABEF321DB2FBF500501D8A /* GameBoyAdvanceSP.png */,
+				F7ABEF311DB2FBF500501D8A /* DS.png */,
+				F7ABEF301DB2FBF500501D8A /* 3DS.png */,
+			);
+			path = NintendoConsoles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7ABEEFC1DB2EE2300501D8A /* NintendoConsoles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7ABEF0F1DB2EE2300501D8A /* Build configuration list for PBXNativeTarget "NintendoConsoles" */;
+			buildPhases = (
+				F7ABEEF91DB2EE2300501D8A /* Sources */,
+				F7ABEEFA1DB2EE2300501D8A /* Frameworks */,
+				F7ABEEFB1DB2EE2300501D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NintendoConsoles;
+			productName = NintendoConsoles;
+			productReference = F7ABEEFD1DB2EE2300501D8A /* NintendoConsoles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7ABEEF51DB2EE2300501D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cisstudent;
+				TargetAttributes = {
+					F7ABEEFC1DB2EE2300501D8A = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7ABEEF81DB2EE2300501D8A /* Build configuration list for PBXProject "NintendoConsoles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7ABEEF41DB2EE2300501D8A;
+			productRefGroup = F7ABEEFE1DB2EE2300501D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7ABEEFC1DB2EE2300501D8A /* NintendoConsoles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7ABEEFB1DB2EE2300501D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABEF431DB2FBF500501D8A /* Wii.png in Resources */,
+				F7ABEF411DB2FBF500501D8A /* Gameboy.png in Resources */,
+				F7ABEF3E1DB2FBF500501D8A /* GameBoyAdvanceSP.png in Resources */,
+				F7ABEF471DB2FBF500501D8A /* NES.png in Resources */,
+				F7ABEF3D1DB2FBF500501D8A /* DS.png in Resources */,
+				F7ABEF461DB2FBF500501D8A /* SNES.png in Resources */,
+				F7ABEF3C1DB2FBF500501D8A /* 3DS.png in Resources */,
+				F7ABEF3F1DB2FBF500501D8A /* GameBoyAdvance.png in Resources */,
+				F7ABEF0B1DB2EE2300501D8A /* LaunchScreen.storyboard in Resources */,
+				F7ABEF081DB2EE2300501D8A /* Assets.xcassets in Resources */,
+				F7ABEF451DB2FBF500501D8A /* N64.png in Resources */,
+				F7ABEF441DB2FBF500501D8A /* Gamecube.png in Resources */,
+				F7ABEF421DB2FBF500501D8A /* WiiU.png in Resources */,
+				F7ABEF401DB2FBF500501D8A /* GameBoyColor.png in Resources */,
+				F7ABEF061DB2EE2300501D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7ABEEF91DB2EE2300501D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ABEF161DB2EEB900501D8A /* NintendoItemsViewController.swift in Sources */,
+				F7ABEF011DB2EE2300501D8A /* AppDelegate.swift in Sources */,
+				F7ABEF151DB2EEB900501D8A /* NintendoItemStore.swift in Sources */,
+				F7ABEF171DB2EEB900501D8A /* NintendoItems.swift in Sources */,
+				F7ABEF491DB56A7500501D8A /* NintendoItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7ABEF041DB2EE2300501D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ABEF051DB2EE2300501D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7ABEF091DB2EE2300501D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7ABEF0A1DB2EE2300501D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7ABEF0D1DB2EE2300501D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7ABEF0E1DB2EE2300501D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7ABEF101DB2EE2300501D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NintendoConsoles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smccd.NintendoConsoles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		F7ABEF111DB2EE2300501D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NintendoConsoles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smccd.NintendoConsoles;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7ABEEF81DB2EE2300501D8A /* Build configuration list for PBXProject "NintendoConsoles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABEF0D1DB2EE2300501D8A /* Debug */,
+				F7ABEF0E1DB2EE2300501D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7ABEF0F1DB2EE2300501D8A /* Build configuration list for PBXNativeTarget "NintendoConsoles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ABEF101DB2EE2300501D8A /* Debug */,
+				F7ABEF111DB2EE2300501D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7ABEEF51DB2EE2300501D8A /* Project object */;
+}

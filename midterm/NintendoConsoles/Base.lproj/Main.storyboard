@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="NO" initialViewController="Jos-SG-vD8">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <development version="7000" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nintendo Items View Controller-->
+        <scene sceneID="ymk-HM-qCr">
+            <objects>
+                <tableViewController id="Jos-SG-vD8" customClass="NintendoItemsViewController" customModule="NintendoConsoles" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="111" sectionHeaderHeight="28" sectionFooterHeight="28" id="G43-0z-Ipv">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="Sv1-Z4-TVH">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="60"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KBz-Sc-Nrv">
+                                    <rect key="frame" x="172.5" y="15" width="30" height="30"/>
+                                    <state key="normal" title="Edit"/>
+                                    <connections>
+                                        <action selector="toggleEditingMode:" destination="Jos-SG-vD8" eventType="touchUpInside" id="RLP-CN-BCT"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="KBz-Sc-Nrv" firstAttribute="centerX" secondItem="Sv1-Z4-TVH" secondAttribute="centerX" id="6iL-Ks-4hw"/>
+                                <constraint firstItem="KBz-Sc-Nrv" firstAttribute="centerY" secondItem="Sv1-Z4-TVH" secondAttribute="centerY" id="ia5-GZ-b7Q"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NintendoItemCell" rowHeight="111" id="h0M-e6-Ihr" customClass="NintendoItemCell" customModule="NintendoConsoles" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="88" width="600" height="111"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h0M-e6-Ihr" id="oOU-18-xSP">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="110.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="G1v-VZ-xfv">
+                                            <rect key="frame" x="8" y="0.0" width="100" height="100"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="1do-8H-lM5"/>
+                                                <constraint firstAttribute="width" constant="100" id="XKz-Aw-eU0"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eOx-LM-0Lo">
+                                            <rect key="frame" x="111" y="8" width="37.5" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lwy-50-tyd">
+                                            <rect key="frame" x="111" y="84.5" width="37.5" height="18"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="eOx-LM-0Lo" firstAttribute="leading" secondItem="G1v-VZ-xfv" secondAttribute="trailing" constant="3" id="4mg-7P-uYS"/>
+                                        <constraint firstItem="G1v-VZ-xfv" firstAttribute="leading" secondItem="oOU-18-xSP" secondAttribute="leadingMargin" id="8Rp-ua-xrb"/>
+                                        <constraint firstItem="eOx-LM-0Lo" firstAttribute="top" secondItem="oOU-18-xSP" secondAttribute="topMargin" id="DxK-e5-xnr"/>
+                                        <constraint firstItem="lwy-50-tyd" firstAttribute="leading" secondItem="G1v-VZ-xfv" secondAttribute="trailing" constant="3" id="Km3-5l-4k1"/>
+                                        <constraint firstItem="G1v-VZ-xfv" firstAttribute="top" secondItem="oOU-18-xSP" secondAttribute="top" id="MmF-Hf-6yJ"/>
+                                        <constraint firstItem="lwy-50-tyd" firstAttribute="bottom" secondItem="oOU-18-xSP" secondAttribute="bottomMargin" id="PLo-q2-wRY"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="consoleImage" destination="G1v-VZ-xfv" id="hjB-gi-4b6"/>
+                                    <outlet property="consoleNameLabel" destination="eOx-LM-0Lo" id="FYI-4H-2xe"/>
+                                    <outlet property="releaseYearLabel" destination="lwy-50-tyd" id="Ef7-eK-N2G"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="Jos-SG-vD8" id="7hv-fd-ZGN"/>
+                            <outlet property="delegate" destination="Jos-SG-vD8" id="D3j-Jr-GQJ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1GD-mh-rTC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="26.399999999999999" y="13.943028485757123"/>
+        </scene>
+    </scenes>
+</document>

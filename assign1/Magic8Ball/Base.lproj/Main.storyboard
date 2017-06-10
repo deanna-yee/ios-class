@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Magic8Ball" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="8ball.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xPZ-0h-VKO">
+                                <rect key="frame" x="210.5" y="63" width="180" height="145"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0K-Hx-iaD">
+                                <rect key="frame" x="231" y="258" width="139" height="36"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Ask Magic8Ball"/>
+                                <connections>
+                                    <action selector="showAnswer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x1j-Uq-EsN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nsD-aM-ji6">
+                                <rect key="frame" x="300" y="341" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nsD-aM-ji6" firstAttribute="top" secondItem="Q0K-Hx-iaD" secondAttribute="bottom" constant="47" id="aem-PG-I89"/>
+                            <constraint firstItem="xPZ-0h-VKO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="43" id="k5d-55-05U"/>
+                            <constraint firstItem="Q0K-Hx-iaD" firstAttribute="centerX" secondItem="xPZ-0h-VKO" secondAttribute="centerX" id="l8T-qg-eUC"/>
+                            <constraint firstItem="Q0K-Hx-iaD" firstAttribute="top" secondItem="xPZ-0h-VKO" secondAttribute="bottom" constant="50" id="nD5-LZ-ePg"/>
+                            <constraint firstItem="nsD-aM-ji6" firstAttribute="centerX" secondItem="xPZ-0h-VKO" secondAttribute="centerX" id="tZH-7f-oar"/>
+                            <constraint firstItem="xPZ-0h-VKO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vK3-v7-2Gp"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="nsD-aM-ji6" id="Vvv-Uv-Cat"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="545" y="351"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="8ball.jpg" width="180" height="145"/>
+    </resources>
+</document>
